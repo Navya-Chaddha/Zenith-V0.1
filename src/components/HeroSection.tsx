@@ -25,8 +25,9 @@ const HeroSection = () => {
           <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold tracking-tighter glow-text">
             <span className="gradient-text">ZENITH</span>
           </h1>
-          <p className="mt-4 text-lg md:text-xl text-muted-foreground max-w-xl mx-auto leading-relaxed">
-            Your portal to the universe — space news, deep dives, and cosmic stories.
+          <p className="mt-6 text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+            Where space exploration meets storytelling. Discover the universe through immersive narratives, 
+            cutting-edge discoveries, and the human journey to the stars.
           </p>
         </motion.div>
 
@@ -40,13 +41,13 @@ const HeroSection = () => {
             to="#stories"
             className="px-8 py-3 rounded-lg bg-primary text-primary-foreground font-semibold hover:bg-primary/90 transition-all glow-border"
           >
-            Read Stories
+            Explore Stories
           </Link>
           <Link
-            to="/admin"
+            to="/about"
             className="px-8 py-3 rounded-lg border border-border text-foreground hover:border-primary/50 hover:bg-secondary/50 transition-all"
           >
-            Write a Story
+            Our Mission
           </Link>
         </motion.div>
 
